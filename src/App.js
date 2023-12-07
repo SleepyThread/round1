@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
   Link,
 } from "react-router-dom";
 
