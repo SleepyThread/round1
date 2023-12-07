@@ -31,4 +31,4 @@ jobs:
           git checkout -b gh-pages
           git add -f build/*
           git commit -m "Deploying to gh-pages"
-          git push https://${{secrets.GITHUB_TOKEN}}@github.com/SleepyThread/round1.git gh-pages --force
+          git push origin gh-pages --force
