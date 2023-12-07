@@ -22,7 +22,10 @@ jobs:
         run: npm install
 
       - name: Deploy
-        run: npm run deploy
+        run: |
+          git config --global user.name 'Akash Mishra'
+          git config --global user.email 'sleepythread@gmail.com'
+          npm run deploy
 
       - name: Manual Deployment
         run: |
